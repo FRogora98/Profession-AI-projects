@@ -1,0 +1,156 @@
+# Dataset di immagini e file multimediali
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.webp
+*.ico
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wav
+*.mp3
+*.flac
+
+# Directory di dataset comuni
+dataset/
+datasets/
+data/
+images/
+img/
+photos/
+videos/
+audio/
+**/dataset/
+**/datasets/
+**/data/
+**/images/
+**/img/
+
+# File compilati ed eseguibili
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.class
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+build/
+dist/
+
+# Cache e file temporanei
+.cache/
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# IDE e editor
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.idea/
+*.sublime-*
+.spyderproject
+.spyproject
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Modelli salvati e pesi
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.model
+*.weights
+models/
+checkpoints/
+saved_models/
+
+# Output e risultati
+output/
+outputs/
+results/
+plots/
+figures/
+logs/
+tensorboard/
+runs/
+
+# File di sistema
+*.bak
+*.backup
+*.orig
+.trash/
+
+# Environment e configurazioni
+.env
+.venv
+env/
+venv/
+.conda/
+conda-meta/
+
+# File specifici Python
+*.egg
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+
+# File di configurazione locali
+config.local.*
+settings.local.*
+*.local
+
+# File compressi
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+*.xz
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Mantieni questi file importanti del progetto:
+# - *.ipynb (Jupyter Notebooks)
+# - *.py (script Python)
+# - *.md (documentazione)
+# - *.txt (file di testo come requirements.txt)
+# - *.csv (piccoli dataset CSV)
+# - *.json (file di configurazione)
+# - *.yml, *.yaml (file di configurazione)
+
+# Forza l'inclusione di file importanti anche se corrispondono ai pattern sopra
+!requirements.txt
+!README.md
+!*.ipynb
+!*.py
+!setup.py
+!*.csv
+!*.json
+!*.yml
+!*.yaml
